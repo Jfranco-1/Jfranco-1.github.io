@@ -1,1 +1,3 @@
-# Jfranco-1.github.io
+permalink: /index.html
+
+#Jfranco-1.github.io
