@@ -1,4 +1,3 @@
-</head>
 <body>
     <div class="header">
         <h1>Welcome to My GitHub Page</h1>
@@ -12,4 +11,4 @@
         </p>
     </div>
 </body>
-</html>
+
