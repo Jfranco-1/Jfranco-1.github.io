@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Joe's Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        .header {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
     <div class="header">
