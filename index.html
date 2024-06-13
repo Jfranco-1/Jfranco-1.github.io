@@ -6,7 +6,7 @@
     <title>Welcome to Widget World</title>
     <style>
         body {
-            background-color: #f0f0f0;
+            background-color: #f7f9fc;
             font-family: Arial, sans-serif;
             margin: 0;
             color: #333;
@@ -19,6 +19,7 @@
         .header h1 {
             margin: 0;
             color: white;
+            font-size: 2em;
         }
         .nav {
             overflow: hidden;
@@ -32,23 +33,28 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
         }
         .nav a:hover {
             background-color: #ddd;
-            color: black;
+            color: #333;
         }
         .content {
             padding: 20px;
             text-align: center;
+            max-width: 1000px;
+            margin: auto;
         }
         .content h2 {
             color: #078397;
+            font-size: 1.5em;
+            margin-top: 40px;
         }
         .footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 15px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
@@ -62,20 +68,53 @@
             display: inline-block;
             width: calc(30% - 40px);
             vertical-align: top;
-            transition: transform 0.3s;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
         .project-card:hover {
             transform: translateY(-10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
         .project-card h3 {
             margin: 0 0 10px 0;
         }
         .project-card p {
             color: #666;
+            margin: 0 0 20px 0;
         }
         .project-card a {
             color: #078397;
             text-decoration: none;
+            font-weight: bold;
+        }
+        .notion-card {
+            background: #e9f7ff;
+            border: 2px solid #078397;
+            padding: 40px;
+            margin: 40px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            display: block;
+            text-align: center;
+            width: 70%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .notion-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+        .notion-card h3 {
+            font-size: 1.8em;
+            color: #078397;
+        }
+        .notion-card p {
+            color: #666;
+            margin: 0 0 20px 0;
+            font-size: 1.2em;
+        }
+        .notion-card a {
+            color: #078397;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -90,22 +129,33 @@
     </div>
     <div class="content">
         <p><b>Hello, my name is Joe. Welcome to my GitHub page! Here you can find my projects and repositories.</b></p>
+        
+        <div class="notion-card">
+            <h3>Explore My Notion Wiki</h3>
+            <p>A place for ONE Import and Export Information</p>
+            <a href="https://joe-franco.notion.site/9fa5d3fe4baa4124951089da942308eb?v=13e0a2d7616a4190ac238bbee327613f">Click Here!</a>
+        </div>
+        
         <h2>Featured Widgets</h2>
+        
         <div class="project-card">
             <h3>Date Widget</h3>
-            <p>A widget for booking fences</p>
-            <a href="https://jfranco-1.github.io/Widgets/Date.html">Click Here</a>
+            <p>A widget for booking fences.</p>
+            <a href="https://jfranco-1.github.io/Widgets/Date.html">Click Here!</a>
         </div>
         <div class="project-card">
             <h3>Timezones Widget</h3>
-            <p>ONE Timezones</p>
-            <a href="https://jfranco-1.github.io/Widgets/Timezones.html">Click Here</a>
+            <p>ONE Timezones.</p>
+            <a href="https://jfranco-1.github.io/Widgets/Timezones.html">Click Here!</a>
         </div>
         <div class="project-card">
             <h3>Widget 2</h3>
-            <p>ONE Timezones in Local Time</p>
-            <a href="https://jfranco-1.github.io/Widgets/Widget2.html">Click Here</a>
+            <p>ONE Timezones in Local Time.</p>
+            <a href="https://jfranco-1.github.io/Widgets/Widget2.html">Click Here!</a>
         </div>
+    </div>
+    <div class="footer">
+        &copy; Thank you for visiting my page.
     </div>
 </body>
 </html>
